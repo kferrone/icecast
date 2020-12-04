@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  icecast:
+    build: .
+    image: kferrone/icecast:latest
+    container_name: icecast
+    ports: 
+    - 8000:8000
